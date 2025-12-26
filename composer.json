@@ -1,0 +1,20 @@
+{
+    "name": "mm-newmedia/testarea",
+    "description": "Personal PHP testing ground",
+    "type": "project",
+    "require": {
+        "psr/container": "2.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "MMNewmedia\\Testarea\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcel Maaß",
+            "email": "info@mm-newmedia.de"
+        }
+    ],
+    "minimum-stability": "dev"
+}
